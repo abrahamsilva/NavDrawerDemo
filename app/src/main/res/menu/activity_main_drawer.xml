@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_Batman"
+                android:icon="@drawable/batman"
+                android:title="Batman"/>
+        <item
+                android:id="@+id/nav_Superman"
+                android:icon="@drawable/superman"
+                android:title="Superman"/>
+        <item
+                android:id="@+id/nav_WW"
+                android:icon="@drawable/ww"
+                android:title="Wonder woman"/>
+        <item
+                android:id="@+id/nav_Aquaman"
+                android:icon="@drawable/aquaman"
+                android:title="Aquaman"/>
+        <item
+                android:id="@+id/nav_GL"
+                android:icon="@drawable/gl"
+                android:title="Green Lantern"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Send"/>
+        </menu>
+    </item>
+
+</menu>
